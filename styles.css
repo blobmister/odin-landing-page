@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bar1, .bar2, .bar3, .bar4 {
+    padding-inline: 500px;
+    padding-block: 100px;
+}
+
+.bar1, .header {
+    background-color: #1F2937;
+    color: white;
+}
+
+
+.bar1 {
+    display: flex;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 500px;
+}
+
+.links {
+    display: flex;
+    gap: 32px
+}
+
+.bar1 {
+    display: flex;
+    height: 500px;
+    gap: 100px;
+}
+
+.right-content {
+    background-color: rgb(193, 193, 209);
+    height: 250px;
+    width: 600px;
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-content h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.left-content p {
+    font-size: 18px;
+    color: #F9fAf8;
+}
+
+
+ul {
+    list-style: none;
+}
+
+.bar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.bar2 .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-and-text {
+    display: flex;
+    flex: 0, 1, auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px;
+    width: 200px;
+}
+
+.image-and-text .image {
+    height: 200px;
+    width: 200px;
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+    flex: 1 0 auto;
+    box-sizing: border-box;
+}
+
+.image-and-text p {
+    text-align: center;
+}
+
+.bar3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.bar3 .person {
+    align-self: flex-end;
+}
+
+
+.call-to-action {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: rgb(179, 179, 253);
+}
+
+.footer {
+    text-align: center;
+}
